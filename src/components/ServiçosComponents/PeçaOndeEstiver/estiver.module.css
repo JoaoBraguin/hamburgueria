@@ -1,0 +1,72 @@
+.container3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+
+    .inicio3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 15px;
+        color: white;
+
+        width: 100%;
+
+        h1 {
+            color: orange;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 40px;
+        }
+
+        span {
+            text-align: center;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 30px;
+            width: 800px;
+        }
+    }
+
+    .Allplataformas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        gap: 100px;
+        color: white;
+
+        .plataformas {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(20, 20, 20);
+            border: solid 1px rgb(58, 58, 58);
+            padding: 20px;
+            border-radius: 10px;
+            gap: 10px;
+            font-size: 17px;
+            width: 170px;
+
+
+            svg {
+                color: orange;
+                font-size: 22px;
+            }
+
+            span{
+                 font-size: 17px;
+            }
+
+            /* &:hover {
+                border: solid 1px orange;
+            } */
+
+
+        }
+    }
+
+
+}

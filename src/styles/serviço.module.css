@@ -1,0 +1,229 @@
+.container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 15px;
+        color: white;
+
+        h1 {
+            color: orange;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 40px;
+        }
+
+        span {
+            display: flex;
+            text-align: center;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 30px;
+            width: 800px;
+        }
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        margin-top: 50px;
+        width: 1800px;
+        color: white;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            height: 210px;
+            background-color: rgb(20, 20, 20);
+            padding: 25px;
+            border-radius: 20px;
+            cursor: pointer;
+            /* Importante! Deixa a borda invisível inicialmente */
+            border: 2px solid transparent;
+            /* Suaviza o acendimento da borda */
+            transition: border-color 0.3s ease;
+
+            p {
+                display: flex;
+                font-weight: 100;
+                color: rgb(176, 176, 176);
+            }
+
+            span {
+                font-weight: lighter;
+            }
+
+
+            &:hover {
+                border-color: orange;
+            }
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: orange;
+            border-radius: 14px;
+            padding: 10px;
+            width: 55px;
+
+            svg {
+                display: flex;
+                color: black;
+                font-size: 34px;
+            }
+        }
+
+
+
+
+
+    }
+
+
+    /* card2 */
+    .cards2 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 60px;
+        margin-top: 50px;
+        width: 1000px;
+        color: white;
+
+        .card {
+            display: flex;
+            height: 200px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            width: 320px;
+            background-color: rgb(20, 20, 20);
+            padding: 25px;
+            border-radius: 15px;
+            cursor: pointer;
+            /* Importante! Deixa a borda invisível inicialmente */
+            border: 2px solid transparent;
+            /* Suaviza o acendimento da borda */
+            transition: border-color 0.3s ease;
+
+            h4 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 4px;
+                color: orange;
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 100;
+                color: rgb(176, 176, 176);
+            }
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 220px;
+                font-weight: lighter;
+
+            }
+
+
+            &:hover {
+                border-color: orange;
+            }
+        }
+
+        .icon {
+            display: flex;
+            margin: auto;
+            background-color: orange;
+            border-radius: 26px;
+            padding: 10px;
+            width: 55px;
+
+            svg {
+                display: flex;
+                color: black;
+                font-size: 34px;
+            }
+        }
+
+    }
+
+    @media (max-width: 1000px) {
+        .cards2 {
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            gap: 20px;
+        }
+
+        .cards {
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            gap: 20px;
+        }
+    }
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+    .inicio3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 15px;
+        color: white;
+        background-color: #1E1E1E;
+        width: 100%;
+
+        h1 {
+            color: orange;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 40px;
+        }
+
+        span {
+            text-align: center;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 30px;
+            width: 800px;
+        }
+    }
+
+    .servicecards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-top: 50px;
+        width: 1800px;
+        color: white;
+
+    
+    }
+
+    
+}

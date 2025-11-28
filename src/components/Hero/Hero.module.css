@@ -1,0 +1,108 @@
+.container {
+
+    background-image: linear-gradient(rgba(1, 1, 0, 0.5), rgba(1, 1, 0, 0.5)), url("https://i.pinimg.com/1200x/45/ea/2c/45ea2c14bcca0baa48a77f76d9f9641b.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+    .text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+        .one {
+            color: orange;
+            /* font-family: "Shadows Into Light", cursive; */
+            font-size: 40px;
+            font-family: "Amatic SC", sans-serif;
+
+        }
+
+        .two {
+            color: white;
+            /* font-family: "Shadows Into Light", cursive; */
+            font-size: 40px;
+            font-family: "Amatic SC", sans-serif;
+        }
+
+        h3 {
+            display: flex;
+            text-align: center;
+            color: white;
+            width: 900px;
+            margin-top: 20px;
+            font-weight: 200;
+            font-family: "Chewy", system-ui;
+            font-size: 25px;
+
+        }
+    }
+
+    .option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        justify-content: space-around;
+        margin-top: 35px;
+        cursor: pointer;
+
+
+
+
+
+        .option1 {
+            display: flex;
+            width: 230px;
+            /* background-color: rgb(255, 115, 0); */
+            background-color: orange;
+            padding: 20px;
+            border-radius: 6px;
+
+            a {
+                margin: auto;
+                text-decoration: none;
+                color: white;
+                font-family: "Amatic SC", sans-serif;
+                font-size: 1.6rem;
+
+            }
+        }
+
+        .option2 {
+            display: flex;
+            width: 230px;
+            background-color: rgb(31, 30, 29);
+            padding: 20px;
+            border-radius: 6px;
+
+            a {
+                margin: auto;
+                text-decoration: none;
+                color: white;
+                font-family: "Amatic SC", sans-serif;
+                font-size: 1.6rem;
+
+            }
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+}

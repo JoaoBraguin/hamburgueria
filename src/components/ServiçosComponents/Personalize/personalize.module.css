@@ -1,0 +1,71 @@
+.container3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 90px;
+
+
+    .inicio3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 15px;
+        color: white;
+
+        width: 100%;
+
+        h1 {
+            color: orange;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 40px;
+        }
+
+        span {
+            text-align: center;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 30px;
+            width: 800px;
+        }
+    }
+
+    .tipos {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 70px;
+        color: white;
+
+        .tipo {
+            padding: 50px;
+            background-color: rgb(20, 20, 20);
+            border: solid 1px rgb(58, 58, 58);
+            border-radius: 10px;
+            width: 390px;
+
+            h1 {
+                display: flex;
+                margin-left: -20px;
+                font-size: 22px;
+                color: orange;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+                gap: 15px;
+
+                li {
+                    font-size: 18px;
+
+                    &::marker {
+                        color: orange;
+                    }
+                }
+
+            }
+        }
+    }
+}

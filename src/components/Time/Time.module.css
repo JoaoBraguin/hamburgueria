@@ -1,0 +1,89 @@
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-top: 76px;
+
+    h1,
+    h2 {
+        color: white;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 38px;
+    }
+
+    h1 {
+        color: orange;
+    }
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 50px;
+
+    .one {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.4s ease;
+
+        img {
+            display: block;
+            width: 320px;
+            height: auto;
+            border-radius: 8px 8px 8px 8px;
+            object-fit: contain;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(17, 17, 17, 0.85);
+            opacity: 0;
+            transform: translateY(100%);
+            transition: all 0.5s ease;
+            color: white;
+            gap: 12px;
+
+            
+            p {
+                color: orange;
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 26px;
+                font-weight: 200;
+            }
+
+            span {
+                font-family: "Amatic SC", sans-serif;
+                font-size: 32px;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.03);
+        }
+
+        &:hover .about {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .icons {
+            display: flex;
+            gap: 10px;
+            font-size: 22px;
+        }
+    }
+}
