@@ -12,6 +12,7 @@ import { FaUtensils } from "react-icons/fa6";
 import Personalize from "../components/ServiçosComponents/Personalize/index.jsx";
 import Pagamento from "../components/ServiçosComponents/Pagamento/index.jsx";
 import PeçaOndeEstiver from "../components/ServiçosComponents/PeçaOndeEstiver/index.jsx";
+import AreaDeEntrega from "../components/ServiçosComponents/AreaDeEntrega/index.jsx";
 
 
 
@@ -73,6 +74,7 @@ export default function Serviço() {
             <Personalize />
             <Pagamento />
             <PeçaOndeEstiver />
+            <AreaDeEntrega />
             <Footer />
         </>
     )
